@@ -58,15 +58,8 @@ This project analyzes HR data from two office locations (A and B) combined with 
 
 ```
 HR Data Analysis/
-├── README.md                              # This file
-├── task/
-│   ├── explore.py                         # Main analysis script
-│   └── tests.py                          # Unit tests
-├── Data/                                 # Data directory (auto-created)
-│   ├── A_office_data.xml                # Office A employee data
-│   ├── B_office_data.xml                # Office B employee data
-│   └── hr_data.xml                      # HR records
-└── [Task folders]/                       # Individual task specifications
+├── README.md                          # This file
+├── explore.py                         # Main analysis script
 ```
 
 ## 🚀 Getting Started
@@ -89,7 +82,6 @@ cd "HR Data Analysis"
 
 2. Run the analysis:
 ```bash
-cd task
 python explore.py
 ```
 
@@ -124,6 +116,23 @@ print(report)
 ```
 
 ## 📊 Sample Output
+## 🙏 Acknowledgments
+
+- Data science community for best practices
+- Pandas development team for the excellent library
+- HR professionals who provided domain expertise
+
+## 📞 Support
+
+If you have any questions or run into issues:
+
+1. Check the [Issues](../../issues) page
+2. Create a new issue with detailed description
+3. Contact the maintainers
+
+---
+
+**Made with ❤️ for better HR decision-making**
 
 The analysis provides insights such as:
 
@@ -191,45 +200,7 @@ The project includes comprehensive error handling:
 - **Logging**: Comprehensive logging for debugging and monitoring
 - **Caching**: Intelligent data caching to avoid redundant operations
 
-## 🔮 Future Enhancements
-
-- [ ] Interactive dashboard with Plotly/Streamlit
-- [ ] Machine learning models for turnover prediction
-- [ ] Real-time data processing capabilities
-- [ ] Advanced statistical analysis (correlation, regression)
-- [ ] Export functionality (Excel, PDF reports)
-- [ ] Database integration for larger datasets
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors
-
-- **Your Name** - *Initial work* - [Your GitHub](https://github.com/yourusername)
-
-## 🙏 Acknowledgments
-
-- Data science community for best practices
-- Pandas development team for the excellent library
-- HR professionals who provided domain expertise
-
-## 📞 Support
-
-If you have any questions or run into issues:
-
-1. Check the [Issues](../../issues) page
-2. Create a new issue with detailed description
-3. Contact the maintainers
-
----
-
-**Made with ❤️ for better HR decision-making**
