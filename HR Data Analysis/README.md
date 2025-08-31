@@ -115,25 +115,6 @@ report = analyzer.generate_comprehensive_report()
 print(report)
 ```
 
-## 📊 Sample Output
-## 🙏 Acknowledgments
-
-- Data science community for best practices
-- Pandas development team for the excellent library
-- HR professionals who provided domain expertise
-
-## 📞 Support
-
-If you have any questions or run into issues:
-
-1. Check the [Issues](../../issues) page
-2. Create a new issue with detailed description
-3. Contact the maintainers
-
----
-
-**Made with ❤️ for better HR decision-making**
-
 The analysis provides insights such as:
 
 ### Employee Metrics by Departure Status
